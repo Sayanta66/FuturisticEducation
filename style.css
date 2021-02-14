@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: gray;
+}
+.rightNav{
+    width: 50%;
+    text-align: right;
+    padding: 0px 23px;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url(bg.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstSection{
+    height: 130vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.secondHalf{
+    width: 45%;
+}
+.secondHalf img{
+    width: 70%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+.text-big{
+    font-size: 36px;
+}
+.text-small{
+    font-size: 18px;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 2px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 12px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.container{
+    width: 60%;
+    margin: auto;
+
+}
+form,.number-fact{
+    width: 100%;
+    background-color: rgb(92, 78, 92);
+    padding: 20px;
+    border-radius: 8px;
+}
+input[type="number"]{
+    width: 70%;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    background-color: #3a3a3b;
+    font-size: 24px;
+    color: aliceblue;
+    padding-left: 10px;
+}
+input[type="number"]::placeholder{
+    font-size: 24px;
+    font-family: "Nunito";
+    font-weight: 400;
+}
+button{
+    display: inline-block;
+    width: 25%;
+    font-size: 24px;
+    height: 40px;
+    background-color:#3a3a3b;
+    color: pink;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+.number-fact{
+    margin-top: 20px;
+    height: auto;
+    font-size: 20px;
+}
+@media only screen and (max-width: 678px){
+    form button{
+      font-size: 18px;
+    }
+}
